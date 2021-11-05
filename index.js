@@ -313,9 +313,12 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lotsOfArt(array){
+  array.slice(0, 4, 5, 8, 9, 10, 11, 12, 13, 15, 16, 19);
+  return array;
 }
+console.log(lotsOfArt(artists));
+
 
 
 /* ***** END OF TASKS ***** */
